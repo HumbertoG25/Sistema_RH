@@ -18,6 +18,12 @@ public class Funcionario {
         }
     }
 
+    public void exibirDados (){
+        System.out.println("Nome: " + getNome());
+        System.out.println("Cpf: " + getCpf());
+        System.out.println("Salario: " + getSalario());
+    }
+
     public String getNome(){
         return nome;
     }
